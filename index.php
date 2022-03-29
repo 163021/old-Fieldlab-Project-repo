@@ -1,5 +1,5 @@
 <?php
-require_once './core/connection.php';
+require './core/connection.php';
 session_start();
 
 $importeddata = $pdo->query("SELECT gebruikersnaam, email, wachtwoord FROM gebruikers");
