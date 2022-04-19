@@ -26,7 +26,6 @@ if(isset($_POST['email']) && isset($_POST['password'])) {
     }
     $_SESSION['error'] = "Gebruikersnaam of wachtwoord is ongeldig.";
 }
-echo "Hello world!"
 
 ?>
 
