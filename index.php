@@ -26,6 +26,10 @@ if(isset($_POST['email']) && isset($_POST['password'])) {
     }
     $_SESSION['error'] = "Gebruikersnaam of wachtwoord is ongeldig.";
 }
+<<<<<<< HEAD
+=======
+echo "Hello world!"
+>>>>>>> b4b5583154b36f500287165e774c590f96e9d49e
 
 ?>
 
